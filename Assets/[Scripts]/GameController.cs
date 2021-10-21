@@ -1,3 +1,11 @@
+/*
+ Full Name: Rui Chen Geng Li (101277255)
+ File Name: GameController.cs
+ Last Modified: October 20th, 2021
+ Description: Resizes and replaces game objects based on the screen orientation
+ Version History: v1.02 - Implemented resize and relocation of the game objects to a specific value to correctly render them in the correct format. Also added internal headers along with some function/variable descriptions
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
