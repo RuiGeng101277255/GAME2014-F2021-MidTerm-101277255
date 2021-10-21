@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
 
     //Delay for each bullet fire
     [Header("Bullet Firing")]
-    public float fireDelay;
+    public int fireFrameDelay;
 
     // Private variables
     private Rigidbody2D m_rigidBody;
@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
      private void _FireBullet()
     {
         // delay bullet firing 
-        if(Time.frameCount % 60 == 0 && bulletManager.HasBullets())
+        if(Time.frameCount % fireFrameDelay == 0 && bulletManager.HasBullets())
         {
             bulletManager.GetBullet(transform.position);
         }

@@ -124,7 +124,7 @@ MonoBehaviour:
   verticalSpeed: 2
   maxSpeed: 6
   verticalTValue: 0.1
-  fireDelay: 0.2
+  fireFrameDelay: 30
 --- !u!95 &786270582
 Animator:
   serializedVersion: 3
